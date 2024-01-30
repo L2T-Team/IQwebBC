@@ -71,3 +71,6 @@ function changeTab(tabId) {
     // Add 'active' class to the clicked tab
     document.getElementById(tabId + "_btn").classList.add('active');
   }
+
+  document.getElementById("tab1").style.display = 'block';
+  document.getElementById("tab1_btn").classList.add('active');

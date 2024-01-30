@@ -8587,7 +8587,206 @@
   display: none;
 }
 
-/* THong so ky thuat */
+/* Tab1: Hinh anh san pham */
+.tab-content__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  height: 640px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.hasp_group-427319825 {
+  flex-shrink: 0;
+  width: 790px;
+  height: 653px;
+  position: static;
+}
+
+.hasp_rectangle-394 {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 790px;
+  height: 653px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.hasp_image-39 {
+  width: 556px;
+  height: 580px;
+  position: absolute;
+  left: 117px;
+  top: 36.96px;
+}
+
+.hasp_frame-427320383 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.hasp_rectangle-395 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.hasp_rectangle-400 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--red-primary, #ed3338);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.hasp_rectangle-401 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.hasp_rectangle-403 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.hasp_rectangle-404 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.hasp_group-427319826 {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: static;
+}
+
+.hasp_rectangle-402 {
+  background: rgba(217, 217, 217, 0);
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 670px;
+  top: 0px;
+}
+
+.hasp_frame-4273203852 {
+  border-radius: 38px;
+  padding: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 36px;
+  height: auto;
+  position: absolute;
+  left: 710px;
+  top: 27px;
+  overflow: visible;
+}
+
+.hasp_nh-gi-b-h-nh {
+  color: #333333;
+  text-align: left;
+  font-family: "BeVietnamPro-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 681px;
+  top: 71px;
+}
+
+
+/*Tab2: Video san pham */
+.vdsp_group-427319825 {
+  flex-shrink: 0;
+  width: 790px;
+  height: 653px;
+  position: static;
+}
+
+.vdsp_rectangle-394 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-radius: 16px;
+  width: 790px;
+  height: 653px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.vdsp_group-427319775 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 358px;
+  top: 309px;
+  overflow: visible;
+}
+
+.vdsp_frame-427320383 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.vdsp_group-427319827 {
+  flex-shrink: 0;
+  width: 176px;
+  height: 120px;
+  position: static;
+}
+
+.vdsp_rectangle-401 {
+  border-radius: 8px;
+  width: 176px;
+  height: 120px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.vdsp_group-4273197752 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 68px;
+  top: 40px;
+  overflow: visible;
+}
+
+
+/* Tab3: Thong so ky thuat */
 .tskt_frame-427320382 {
   display: flex;
   flex-direction: column;
@@ -8740,19 +8939,7 @@
   line-height: 124.5%;
   font-weight: 600;
   position: relative;
-}
-
-.tskt_frame-427320061 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  height: 640px;
-  position: relative;
-  overflow: hidden;
-  overflow-y: scroll;
+  margin-bottom: 30px;
 }
 
 .tskt_group-427319781 {
@@ -9901,4 +10088,133 @@
   width: 789px;
   height: 40px;
   position: relative;
+}
+
+/* Tab 4 - Thông số kỹ thuật */
+
+.ttct_frame-427320048 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 790px;
+  position: relative;
+}
+
+.ttct_nh-gi-thi-t-k-loa-karaoke-jbl-cv-1852-t {
+  color: var(--333, #333333);
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 149.5%;
+  font-weight: 700;
+  position: relative;
+}
+
+.ttct_rectangle-294 {
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 790px;
+  height: 440px;
+  position: relative;
+}
+
+.ttct_frame-427319955 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.ttct_loa-jbl-cv-1852-t-mang-ki-u-d-ng-h-nh-h-p-ch-nh-t-n-m-ngang-c-n-i-g-n-g-ng-v-i-k-ch-th-c-457-4-r-ng-x-251-cao-270-s-u-mm-v-tr-ng-l-ng-9-2-kg-chi-c-c-ng-v-i-l-2-l-m-10-n-n-qu-kh-ch-h-ng-kh-thu-n-ti-n-b-tr-trong-ph-ng-h-t {
+  color: var(--333, #333333);
+  text-align: left;
+  font-family: "BeVietnamPro-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 149.5%;
+  font-weight: 400;
+  position: relative;
+  width: 781px;
+  height: 71px;
+}
+
+.ttct_group-427319822 {
+  flex-shrink: 0;
+  width: 790px;
+  height: 460px;
+  position: static;
+}
+
+.ttct_rectangle-297 {
+  border-radius: 16px;
+  width: 790px;
+  height: 440px;
+  position: absolute;
+  left: 0px;
+  top: 664px;
+}
+
+.ttct_group-427319821 {
+  width: 790px;
+  height: 95px;
+  position: static;
+}
+
+.ttct_rectangle-299 {
+  background: linear-gradient(180deg,
+      rgba(217, 217, 217, 0) 0%,
+      rgba(255, 255, 255, 1) 100%);
+  width: 790px;
+  height: 75px;
+  position: absolute;
+  left: 0px;
+  top: 1029px;
+}
+
+.ttct_frame-427319959 {
+  background: #ffffff;
+  border-radius: 22px;
+  border-style: solid;
+  border-color: var(--border, #d9d9d9);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 331px;
+  top: 1083px;
+}
+
+.ttct_xem-th-m {
+  color: var(--333, #333333);
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 124.5%;
+  font-weight: 500;
+  position: relative;
+}
+
+.ttct_arrow-down-25 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ttct_iconly-light-arrow-down-22 {
+  height: auto;
+  position: absolute;
+  left: 3.33px;
+  top: 5.67px;
+  overflow: visible;
 }
