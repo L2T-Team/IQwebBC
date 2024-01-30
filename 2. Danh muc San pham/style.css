@@ -3842,8 +3842,8 @@
   width: 100%;
 }
 .readmore {
-  border: 1px solid #ed3338;
-  color: #ed3338;
+  border: 1px solid #0085ff;
+  color: #0085ff;
   z-index: 1000;
   width: 200px;
   display: block;
@@ -3858,7 +3858,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.frame-427319959 {
+/* .frame-427319959 {
   background: #ffffff;
   border-radius: 22px;
   border-style: solid;
@@ -3874,8 +3874,8 @@
   position: absolute;
   left: 637.5px;
   top: 3190px;
-}
-.xem-th-m {
+} */
+/* .xem-th-m {
   color: #0085ff;
   text-align: left;
   font-family: "BeVietnamPro-Medium", sans-serif;
@@ -3883,7 +3883,7 @@
   line-height: 124.5%;
   font-weight: 500;
   position: relative;
-}
+} */
 .iconly-light-arrow-down-23 {
   height: auto;
   position: absolute;
@@ -4980,15 +4980,6 @@
   width: 360px;
   position: relative;
 }
-.mi-n-b-c {
-  color: #ffffff;
-  text-align: left;
-  font-family: "BeVietnamPro-SemiBold", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  position: relative;
-}
 .frame-427320852 {
   background: #f5f5f5;
   border-radius: 12px;
@@ -5016,7 +5007,7 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
@@ -5072,14 +5063,6 @@
 }
 .tel-02835350885-0865513799 {
   color: #333333;
-  text-align: left;
-  font-family: "BeVietnamPro-Regular", sans-serif;
-  font-size: 10px;
-  font-weight: 400;
-  position: relative;
-}
-.h-nh-nh {
-  color: var(--higline, #0085ff);
   text-align: left;
   font-family: "BeVietnamPro-Regular", sans-serif;
   font-size: 10px;
@@ -5403,15 +5386,6 @@
   flex-shrink: 0;
   position: relative;
 }
-.mi-n-nam {
-  color: #ffffff;
-  text-align: left;
-  font-family: "BeVietnamPro-SemiBold", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  position: relative;
-}
 .iconly-bold-home7 {
   height: auto;
   position: absolute;
@@ -5694,15 +5668,6 @@
   justify-content: center;
   flex-shrink: 0;
   width: 360px;
-  position: relative;
-}
-.mi-n-trung {
-  color: #ffffff;
-  text-align: left;
-  font-family: "BeVietnamPro-SemiBold", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
   position: relative;
 }
 .frame-427320143 {
@@ -6161,4 +6126,1024 @@
   font-size: 14px;
   font-weight: 400;
   position: relative;
+}
+
+/* show-rooms */
+.frame-427320350 {
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-width: 1px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.h-th-ng-14-showroom-to-n-qu-c {
+  color: #333333;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.frame-427320357 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320352 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320787 {
+  display: flex;
+  flex-direction: row;
+  gap: 941px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320358 {
+  background: #ed3338;
+  border-radius: 8px;
+  padding: 12px 30px 12px 30px;
+  flex-shrink: 0;
+  width: 175px;
+  height: 48px;
+  position: relative;
+}
+
+.rectangle-3464332 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.rectangle-3464332::after {
+  content: "";
+  position: absolute;
+  border-radius: 7px;
+  flex-shrink: 0;
+  width: 24px;
+  height: 4px;
+  top: 50%;
+  left: 0;
+  background: #333333;
+  display: block;
+}
+
+.disabled::before {
+  content: "";
+  position: absolute;
+  border-radius: 7px;
+  flex-shrink: 0;
+  width: 24px;
+  height: 4px;
+  top: 50%;
+  left: 0;
+  rotate: 90deg;
+  background: #333333;
+  display: block;
+}
+
+.frame-427320401 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320362 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320348 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320170 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-width: 1px;
+  padding: 16px 52px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 555px;
+  position: relative;
+}
+
+.baochauelec-c-u-gi-y-h-n-i2 {
+  color: #333333;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.frame-4273201402 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-light-location5 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+._45-trung-k-nh-p-trung-h-a-q-c-u-gi-y-tp-h-n-i2 {
+  color: #333333;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  position: relative;
+}
+
+.frame-427320396 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-light-time-circle {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.frame-427320657 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-4273201412 {
+  background: #0085ff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-4273201352 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #0085ff;
+  border-width: 1px;
+  padding: 7px 10px 7px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-light-location6 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.xem-b-n {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+
+.frame-4273201362 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #0085ff;
+  border-width: 1px;
+  padding: 7px 21px 7px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-bold-image-24 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.frame-427320160 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-width: 1px;
+  padding: 16px 52px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 555px;
+  position: relative;
+}
+
+.iconly-light-location7 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle2 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location8 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-25 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.frame-4273203662 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-light-location9 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle3 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location10 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-26 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.iconly-light-location11 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle4 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location12 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-27 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.frame-427320365 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-light-location13 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle5 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location14 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-28 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.iconly-light-location15 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle6 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location16 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-29 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.frame-427320353 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320788 {
+  display: flex;
+  flex-direction: row;
+  gap: 940px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320359 {
+  background: #ed3338;
+  border-radius: 8px;
+  padding: 12px 30px 12px 30px;
+  flex-shrink: 0;
+  width: 176px;
+  height: 48px;
+  position: relative;
+}
+
+.iconly-light-location17 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle7 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location18 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-210 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.iconly-light-location19 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle8 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location20 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-211 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.frame-427320354 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-427320789 {
+  display: flex;
+  flex-direction: row;
+  gap: 940px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.mi-n-nam {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 35px;
+  top: 13px;
+}
+
+.frame-427320367 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-light-location21 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle9 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span25 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span26 {
+  color: #0ec215;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span27 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.iconly-light-location22 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-212 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.iconly-light-location23 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle10 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span28 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span29 {
+  color: #0ec215;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span30 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.iconly-light-location24 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-213 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.frame-427320368 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconly-light-location25 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle11 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span31 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span32 {
+  color: #0ec215;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span33 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.iconly-light-location26 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-214 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.iconly-light-location27 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle12 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span34 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span35 {
+  color: #0ec215;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span36 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.iconly-light-location28 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-215 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.iconly-light-location29 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle13 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span37 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span38 {
+  color: #0ec215;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.m-c-a-8-00-18-00-h-ng-ng-y-span39 {
+  color: #000000;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.iconly-light-location30 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-216 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.iconly-light-location31 {
+  height: auto;
+  position: absolute;
+  left: 4.5px;
+  top: 3px;
+  overflow: visible;
+}
+
+.iconly-light-time-circle14 {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  overflow: visible;
+}
+
+.iconly-light-location32 {
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: visible;
+}
+
+.iconly-bold-image-217 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.location3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.time-circle {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.location6 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.showroom-image-2 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.iconly-bold-image-2 {
+  height: auto;
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  overflow: visible;
+}
+
+.h-nh-nh {
+  color: #0085ff;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+
+.mi-n-b-c {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 37px;
+  top: 12px;
+}
+
+.mi-n-trung {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 23px;
+  top: 12px;
+}
+
+.mi-n-nam {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 35px;
+  top: 13px;
 }

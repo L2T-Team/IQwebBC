@@ -984,7 +984,6 @@
   background-color: var(--border, #d9d9d9);
   width: 1px;
   height: 14px;
-
 }
 
 .frame-427319934 {
@@ -1526,7 +1525,6 @@
   font-size: 14px;
   font-weight: 400;
   margin-top: 8px;
-
 }
 
 .frame-427319954 {
@@ -2885,9 +2883,11 @@
 }
 
 .frame-427320065 {
-  background: linear-gradient(269.76deg,
-      rgba(237, 51, 56, 1) 0%,
-      rgba(188, 9, 11, 1) 100%);
+  background: linear-gradient(
+    269.76deg,
+    rgba(237, 51, 56, 1) 0%,
+    rgba(188, 9, 11, 1) 100%
+  );
   border-radius: 29px;
   padding: 6px 62px 6px 62px;
   display: flex;
@@ -3578,8 +3578,6 @@
   justify-content: flex-start;
 }
 
-
-
 .thong-so {
   display: flex;
   background: #efefef;
@@ -4033,7 +4031,7 @@
   height: 382px;
 }
 
-.xem-them__container {
+/* .xem-them__container {
   width: 688px;
   height: 94.51px;
   position: absolute;
@@ -4042,9 +4040,11 @@
 }
 
 .xem-them__overlay {
-  background: linear-gradient(180deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   width: 688px;
   height: 75px;
   position: absolute;
@@ -4062,24 +4062,55 @@
   display: flex;
   flex-direction: row;
   gap: 8px;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
   width: 150px;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%, -25%);
   z-index: 1;
-}
-
-.xem-them__label {
   color: #0085ff;
   text-align: left;
   font-family: "BeVietnamPro-SemiBold", sans-serif;
   font-size: 14px;
   line-height: 124.5%;
   font-weight: 500;
-  position: relative;
+} */
+
+.show-more {
+  float: left;
+  width: 100%;
+}
+.bg-article {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 61.97916865348816%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  bottom: 15px;
+  height: 105px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.readmore {
+  border: 1px solid #0085ff;
+  color: #0085ff;
+  z-index: 1000;
+  width: 200px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  line-height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .arrow-down-25 {
@@ -5511,7 +5542,6 @@
   position: relative;
   overflow: hidden;
   rotate: 180deg;
-
 }
 
 .iconly-light-arrow-right-23 {
@@ -8478,8 +8508,6 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, -1);
 }
-
-
 
 .frame-258 {
   padding: 0px 0px 16px 0px;
