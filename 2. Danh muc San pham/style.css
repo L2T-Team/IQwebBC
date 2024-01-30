@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
@@ -19,7 +19,7 @@
   position: static;
 }
 .menu {
-  display: flex;
+  display: none;
   flex-direction: row;
   gap: 20px;
   align-items: center;
@@ -208,21 +208,27 @@
 }
 .header {
   background: #ed3338;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header-content {
+  background: #ed3338;
+  width: 1440px;
   padding: 16px 120px 16px 120px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
   justify-content: center;
-  width: 1440px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
 }
 .frame-427320374 {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -436,8 +442,6 @@
   font-size: 12px;
   font-weight: 400;
   position: relative;
-  width: 102px;
-  height: 18px;
 }
 .frame-10 {
   background: rgba(255, 255, 255, 0.2);
@@ -594,7 +598,7 @@
 .frame-4273198752 {
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 10px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -603,7 +607,7 @@
 .frame-4273198732 {
   display: flex;
   flex-direction: row;
-  gap: 11px;
+  gap: 10px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -691,7 +695,7 @@
   border-style: solid;
   border-color: #ffffff;
   border-width: 1px;
-  padding: 8px 9px 8px 9px;
+  padding: 4px 12px;
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -718,7 +722,9 @@
 .frame-92 {
   background: #ffffff;
   border-radius: 42px;
-  padding: 9px 8px 9px 8px;
+  width: 126px;
+  height: 35px;
+  padding: 8px;
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -747,30 +753,24 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  left: calc(50% - 720px);
+  left: 0px;
   top: 140px;
-}
-.rectangle-279 {
-  background: #ffffff;
-  flex-shrink: 0;
-  width: 1440px;
-  height: 40px;
-  position: relative;
+  width: 100vw;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  height: 40px;
 }
 .frame-427319534 {
+  padding-left: 120px;
   display: flex;
   flex-direction: row;
   gap: 4px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  position: absolute;
-  left: 120px;
-  top: 11px;
+  width: 1440px;
 }
 .trang-ch {
   color: #0984e3;
@@ -1634,6 +1634,7 @@
   left: 9px;
   top: 3px;
   overflow: visible;
+  transform: rotate(-180deg) scale(1, 1);
 }
 .frame-427319890 {
   display: flex;
@@ -4774,7 +4775,7 @@
   padding: 16px 24px 16px 24px;
   display: flex;
   flex-direction: row;
-  gap: 9px;
+  gap: 24px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -4840,7 +4841,6 @@
   height: 39px;
   position: relative;
   transform-origin: 0 0;
-  transform: rotate(0deg) scale(-1, 1);
   overflow: hidden;
 }
 .w-1-ogw-4-tif {
@@ -4875,7 +4875,7 @@
   padding: 16px 15px 16px 24px;
   display: flex;
   flex-direction: row;
-  gap: 9px;
+  gap: 24px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -4887,7 +4887,6 @@
   height: 38.05px;
   position: relative;
   transform-origin: 0 0;
-  transform: rotate(0deg) scale(-1, 1);
   overflow: hidden;
 }
 .y-9-tg-hm-tif {
@@ -5816,6 +5815,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  width: 100vw;
 }
 .frame-256 {
   display: flex;
@@ -6007,9 +6007,9 @@
 }
 .frame-427319911 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 24px;
-  align-items: center;
+  align-items: start;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
@@ -6019,7 +6019,6 @@
   width: 94px;
   height: 19px;
   position: relative;
-  object-fit: cover;
 }
 .mask-group {
   flex-shrink: 0;
@@ -6038,12 +6037,8 @@
   transform: rotate(0deg) scale(1, -1);
 }
 .image-37 {
-  width: 198.51px;
+  width: auto;
   height: 35.8px;
-  position: absolute;
-  left: 118.81px;
-  top: 0px;
-  object-fit: cover;
 }
 .frame-258 {
   padding: 0px 0px 16px 0px;
