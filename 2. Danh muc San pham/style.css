@@ -3813,36 +3813,50 @@
   height: 109px;
   position: static;
 }
-.d-i-y-l-danh-s-ch-nh-ng-loa-karaoke-ch-t-l-ng-h-ng-u-d-nh-cho-ph-ng-h-t-chuy-n-nghi-p-m-b-n-n-n-tham-kh-o-t-ch-t-m-ho-n-h-o-n-t-nh-n-ng-ti-n-ti-n-nh-ng-s-n-ph-m-n-y-h-a-h-n-s-mang-n-tr-i-nghi-m-karaoke-xu-t-s-c-cho-m-i-ng-i-c-ng-t-m-hi-u-nh-v-i-c-ng-su-t-1000-w-v-c-ng-su-t-ph-t-t-i-a-l-n-n-2000-w-alto-ts-410-l-l-a-ch-n-l-t-ng-cho-c-c-kh-ng-gian-gi-i-tr-c-di-n-t-ch-t-10-100-m-i-m-kh-c-bi-t-v-c-i-ti-n-m-i-nh-t-c-a-model-n-y-l-kh-n-ng-k-t-n-i-bluetooth-cho-ph-p-ng-i-d-ng-linh-ho-t-k-t-n-i-2-loa-v-i-nhau-p-ng-m-i-nhu-c-u-gi-i-tr {
+.mt_sp {
   color: #333333;
-  text-align: left;
   font-family: "BeVietnamPro-Regular", sans-serif;
   font-size: 14px;
   line-height: 124.5%;
   font-weight: 400;
-  position: absolute;
-  left: 309.5px;
-  top: 3122px;
-  width: 820px;
-  height: 86px;
+  width: 1200px;
+  margin: 10px auto auto;
+  text-align: justify;
 }
-.group-427319821 {
-  width: 820px;
-  height: 78px;
-  position: static;
+
+.show-more {
+  float: left;
+  width: 100%;
 }
-.rectangle-299 {
+.bg-article {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 1) 61.97916865348816%,
     rgba(255, 255, 255, 1) 100%
   );
-  width: 820px;
-  height: 58px;
+  bottom: 15px;
+  height: 105px;
+  left: 0;
   position: absolute;
-  left: 309.5px;
-  top: 3153px;
+  width: 100%;
+}
+.readmore {
+  border: 1px solid #ed3338;
+  color: #ed3338;
+  z-index: 1000;
+  width: 200px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  line-height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .frame-427319959 {
   background: #ffffff;
