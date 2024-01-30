@@ -3842,8 +3842,8 @@
   width: 100%;
 }
 .readmore {
-  border: 1px solid #ed3338;
-  color: #ed3338;
+  border: 1px solid #0085ff;
+  color: #0085ff;
   z-index: 1000;
   width: 200px;
   display: block;
@@ -3858,7 +3858,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.frame-427319959 {
+/* .frame-427319959 {
   background: #ffffff;
   border-radius: 22px;
   border-style: solid;
@@ -3874,8 +3874,8 @@
   position: absolute;
   left: 637.5px;
   top: 3190px;
-}
-.xem-th-m {
+} */
+/* .xem-th-m {
   color: #0085ff;
   text-align: left;
   font-family: "BeVietnamPro-Medium", sans-serif;
@@ -3883,7 +3883,7 @@
   line-height: 124.5%;
   font-weight: 500;
   position: relative;
-}
+} */
 .iconly-light-arrow-down-23 {
   height: auto;
   position: absolute;
